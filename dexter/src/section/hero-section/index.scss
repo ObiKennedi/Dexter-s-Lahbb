@@ -1,0 +1,27 @@
+.hero{
+    background: #000000d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 650px;
+    >img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    >div{
+        margin-top: 60px;
+        text-align: center;
+        >img{
+            width: 65%;
+        }
+        >p{
+            color: #00f0ff;
+            text-transform: uppercase;
+            font-size: 25px;
+            padding: 0 10px;
+        }
+    }
+}

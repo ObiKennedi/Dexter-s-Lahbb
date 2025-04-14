@@ -1,0 +1,183 @@
+#about {
+    height: 100%;
+    padding: 50px 5%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: #000000;
+
+    >div:first-child {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 30%;
+        padding: 10px 20px;
+
+        >div:first-child {
+            width: 100%;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ffffff18;
+            padding: 10px;
+            border-radius: 20px;
+
+            img {
+                width: 50%;
+            }
+
+            >div {
+                width: 80%;
+                color: #ffffff;
+                text-align: justify;
+
+                >div {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        >div:last-child {
+            width: 100%;
+            height: 283px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            background: #ffffff18;
+            padding: 50px 10px;
+            border-radius: 20px;
+
+            >img {
+                width: 80%;
+            }
+
+            >div {
+                display: flex;
+                width: 80%;
+                gap: 5px;
+
+                >img {
+                    width: 30px;
+                    height: 30px;
+                }
+
+                >div {
+                    font-size: 25px;
+                    color: #00aeef;
+                }
+            }
+        }
+    }
+
+    >div:last-child {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 70%;
+        padding: 10px;
+
+        >div:first-child {
+            width: 100%;
+            display: flex;
+            gap: 20px;
+
+            >div {
+                width: 50%;
+                height: 520px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: #ffffff18;
+                padding: 10px;
+                border-radius: 20px;
+
+                >img {
+                    width: 50%;
+                }
+
+                >div {
+                    width: 80%;
+                    color: #ffffff;
+                    text-align: justify;
+
+                    >div {
+                        font-size: 15px;
+                    }
+                }
+
+                button {
+                    width: 200px;
+                    height: 40px;
+                    background: #00AEEF;
+                    color: #FFFFFF;
+                    text-decoration: none;
+                    font-size: 14px;
+                    border: none;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        >div:last-child {
+            width: 97%;
+            height: 430px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #ffffff18;
+            padding: 10px;
+            border-radius: 20px;
+
+            >img {
+                width: 40%;
+            }
+
+            >div {
+                width: 80%;
+                color: #ffffff;
+                text-align: justify;
+
+                >div {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    @media (max-width:900px) {
+        flex-direction: column;
+        >div:first-child{
+            width: 82%;
+            >div:last-child{
+                >div{
+                    >img{
+                        width: 25px;
+                        height: 25px;
+                    }
+                    >div{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        >div:last-child{
+            flex-direction: column;
+            width: 90%;
+            align-items: center;
+            >div:first-child{
+                width: 100%;
+                flex-direction: column;
+                >div{
+                    width: 95%;
+                    height: 510px;
+                }
+            }
+            >div:last-child{
+                width: 95%;
+            }
+        }
+    }
+}

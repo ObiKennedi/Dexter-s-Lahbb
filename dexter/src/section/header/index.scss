@@ -1,0 +1,128 @@
+.header-class{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+    z-index: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 70px;
+    >img{
+        width: 70px;
+        height: 70px;
+    }
+    >button{
+        display: none;
+    }
+    >nav{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 50%;
+        >ul{
+            list-style: none;
+            flex: 1;
+            text-align: center;
+            >li{
+                display: inline-block;
+                margin: 10px;
+                >a{
+                    font-size: 16px;
+                    text-decoration: none;
+                    color: #00AEEF;
+                }
+            }
+        }
+        >a{
+            margin: 15px 30px;
+            width: 100px;
+            height: 40px;
+            border: none;
+            >button{
+                width: 100%;
+                height: 100%;
+                background: #00AEEF;
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 14px;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+.header-small-class{
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 5%;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    top: 0;
+    >img{
+        width: 50px;
+        height: 50px;
+    }
+    >button{
+        background: transparent;
+        border: none;
+        height: 70px;
+        width: 70px;
+    }
+    .toggle--visible{
+        top: 80px;
+        box-shadow: 0 1px 2px 2px #000000ab;
+    }
+    .toggle--not--visible{
+        top: -100vw;
+     }
+    >nav{
+        position: absolute;
+        background: #0000008f;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        transition: 1.5s;
+        padding-bottom: 30px;
+        >ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            >li{
+                margin: 20px 0;
+                >a{
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #00AEEF;
+                }
+            }
+        }
+        >a{
+            margin: 15px 30px;
+            >button{
+                width: 100px;
+                height: 40px;
+                background: #00AEEF;
+                color: #FFFFFF;
+                text-decoration: none;
+                font-size: 14px;
+                border: none;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.scrolled-header{
+    background: #000000d8;
+}
+
+.unscrolled-header{
+    background: transparent;
+}
