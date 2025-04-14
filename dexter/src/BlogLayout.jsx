@@ -1,11 +1,11 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
 
 const BlogLayout = () =>{
     return(
         <>
-            <header>Blog</header>
-            <Outlet/>
-            <footer>Blog Footer</footer>
+            <header>Blog header</header>
+            <main>{Outlet}</main>
+            <footer>Blog footer</footer>
         </>
     )
 }
