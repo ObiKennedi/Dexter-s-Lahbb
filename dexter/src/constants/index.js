@@ -210,3 +210,38 @@ export const myProjects = [
     ],
   },
 ];
+
+export const services = {
+  development: [
+    {
+      title: "Web Development",
+      description: "Custom-built websites that are responsive, fast, and conversion-focused.",
+    },
+    {
+      title: "App Development",
+      description: "Cross-platform mobile apps with sleek interfaces and seamless performance.",
+    },
+    {
+      title: "UI/UX Design",
+      description: "User-first interfaces that are both beautiful and functional.",
+    },
+    {
+      title: "Maintenance & Support",
+      description: "Bug fixes, updates, and ongoing care — we’re here post-launch too.",
+    },
+  ],
+  creative: [
+    {
+      title: "Brand Management",
+      description: "Grow and protect your brand across platforms with strategy-driven management.",
+    },
+    {
+      title: "Social Media Management",
+      description: "We handle your content, scheduling, and engagement — so you stay top of mind.",
+    },
+    {
+      title: "Graphics Design",
+      description: "Logos, flyers, ads, and brand kits that stand out and stay consistent.",
+    },
+  ],
+};
