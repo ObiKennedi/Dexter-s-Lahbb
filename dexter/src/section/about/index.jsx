@@ -81,7 +81,7 @@ const About = () => {
                     <img src={"/assets/vision-key.png"} alt="keyboard" />
                     <div>
                         <h4>Why we code?</h4>
-                        <div>To be honest, there's no grand vision behind this endeavor. We're just a team of curious nerds, dancing on the border between chaos and value — building things we believe in, breaking what needs breaking, and crafting experiences that somehow make the digital world feel a little more human. We experiment, we iterate, and occasionally, we ship magic.</div>
+                        <div>At Dexter's Lahb, we blend creativity with precision to craft digital solutions that don't just work — they resonate. We see code as our canvas, design as our voice, and reliability as our promise. Every project is a chance to tell a story — yours — through clean, thoughtful, and dependable technology.</div>
                     </div>
                 </div>
             </div>
