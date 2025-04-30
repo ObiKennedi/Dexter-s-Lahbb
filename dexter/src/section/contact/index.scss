@@ -1,0 +1,80 @@
+#contact{
+    background: #000000d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 850px;
+    >img{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    >div{
+        height: 100%;
+        width: 40%;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media (max-width:900px) {
+            width: 90%;
+            padding: 12px;
+        }
+
+        >form{
+            width: 90%;
+            height: 70%;
+            padding: 40px 20px;
+            border: 1px solid #fff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            >div{
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                >label{
+                    font-size: 22px;
+                    text-align: start;
+                }
+                >input{
+                    height: 50px;
+                    border: 1px solid #fff;
+                    border-radius: 10px;
+                    padding: 10px;
+                    background: transparent;
+                }
+                >textarea{
+                    height: 200px;
+                    border: none;
+                    border-radius: 10px;
+                    padding: 10px;
+                    resize: none;
+                    background: transparent;
+                    border: 1px solid #fff;
+                }
+                >small{
+                    font-size: 2px;
+                    color: #ff0000;
+                }
+            }
+            >button{
+                height: 50px;
+                padding: 10px;
+                border: 1px solid #fff;
+                border-radius: 10px;
+                background: transparent;
+                color: #0066ff;
+            }
+            >button.active{
+                border: none;
+                background: #0066ff;
+                color: #fff;
+            }
+        }
+    }
+}
