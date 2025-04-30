@@ -4,6 +4,7 @@ import Hero from "./section/hero-section"
 import Projects from "./section/work"
 import Services from "./section/services"
 import Contact from "./section/contact"
+import Footer from "./section/footer"
 
 const App = () =>{
   return(
@@ -16,6 +17,7 @@ const App = () =>{
         <Services/>
         <Contact/>
       </main>
+      <Footer/>
     </>
   )
 }

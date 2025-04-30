@@ -243,5 +243,70 @@ export const services = {
       title: "Graphics Design",
       description: "Logos, flyers, ads, and brand kits that stand out and stay consistent.",
     },
+    {
+      title: "Consultation",
+      description: "Get expert guidance on tech, branding, and digital strategy tailored to your goals.",
+    },
   ],
 };
+
+export const handles = [
+  {
+    id: 1,
+    icons: "/assets/facebook.png",
+    href: ""
+  },
+  {
+    id:2,
+    icons: "/assets/twitter.png",
+    href: ""
+  },
+  {
+    id:3,
+    icons: "/assets/instagram.png",
+    href: ""
+  },
+  {
+    id: 4,
+    icons: "/assets/linkedin.png",
+    href: ""
+  },
+  {
+    id: 5,
+    icons: "/assets/tiktok.png",
+    href: ""
+  }
+]
+
+export const quickLinks = [
+  {
+    id: 1,
+    href: "#services",
+    title: "Services"
+  },
+  {
+    id: 2,
+    href: "#work",
+    title: "Work"
+  },
+  {
+    id: 3,
+    href: "#about",
+    title: "About"
+  },
+  {
+    id: 4,
+    href: "/blog",
+    title: "Blog"
+  }
+]
+
+export const servicesSlide = [
+  { title: "Website Development", description: "Custom websites that bring your vision to life." },
+  { title: "Mobile App Development", description: "Apps that deliver seamless user experiences." },
+  { title: "Brand Identity Design", description: "Logos and visuals that define your brand." },
+  { title: "E-commerce Solutions", description: "Online stores that drive sales and growth." },
+  { title: "Digital Strategy", description: "Plans that power your online presence." },
+  { title: "UI/UX Design", description: "Intuitive designs that delight your users." },
+  { title: "Maintenance & Support", description: "We keep your digital platforms running smoothly." }
+];

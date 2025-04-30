@@ -1,0 +1,19 @@
+.quick-link{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 20%;
+    @media (max-width: 800px) {
+        width: 90%;
+    }
+    >h2{
+        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #111111e3;
+    }
+    a:hover{
+        color: #000;
+    }
+}

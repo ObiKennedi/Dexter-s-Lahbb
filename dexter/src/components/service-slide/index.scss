@@ -1,0 +1,43 @@
+.footer-slider {
+    text-align: center;
+    color: white;
+    padding: 1.5rem 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  
+    .fade {
+      animation: fadeinout 4s ease-in-out infinite;
+  
+      h4 {
+        font-size: clamp(1.25rem, 2.5vw, 2rem);
+        margin-bottom: 0.5rem;
+      }
+  
+      p {
+        font-size: clamp(1rem, 2vw, 1.2rem);
+        line-height: 1.5;
+        margin: 0 auto;
+        padding: 0 1rem;
+      }
+    }
+  
+    @keyframes fadeinout {
+      0% {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      10% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      90% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      100% {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+    }
+}
+  
